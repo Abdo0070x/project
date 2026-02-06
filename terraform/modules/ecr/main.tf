@@ -7,7 +7,7 @@ resource "aws_ecr_repository" "this" {
     scan_on_push = var.scan_on_push
   }
 
-  force_delete = true   # ⭐ ده المهم
+  force_delete = true     
 
   tags = {
     Name = var.name

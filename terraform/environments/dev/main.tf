@@ -70,3 +70,6 @@ module "ecr_frontend" {
   source = "../../modules/ecr"
   name   = "micro-frontend"
 }
+module "argocd" {
+  source = "../../modules/argocd"
+}
